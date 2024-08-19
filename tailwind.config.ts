@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+const plugin = require('tailwindcss/plugin');
 
 const config = {
   darkMode: ["class"],
@@ -18,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      textShadow: {
+        'custom': '3px 3px 3px rgba(0, 0, 0, 0.3)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("bg-background","mx-[40px]", inter.className)}>
+      <body className={cn("bg-background","mx-[60px]", inter.className)}>
         <div>
           <Navbar />
         </div>
