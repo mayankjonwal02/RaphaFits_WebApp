@@ -10,10 +10,10 @@ export default function Home() {
       <div className="text-[7vh] font-extrabold text-customtext mt-[40px]  drop-shadow-xl">
         Keep Your Body
       </div>
-      <div className="text-[7vh] font-extrabold text-customtext mt-[-10px] drop-shadow-xl">
+      <div className="text-[7vh] font-extrabold text-customtext mt-[-30px] drop-shadow-xl">
         Fit & Strong
       </div>
-      <div className="flex flex-row items-center">
+      <div className="flex flex-row items-center my-3">
       <div className='font-bold text-xl text-black py-3 px-6 border border-[#E2F163] border-2 rounded-[50px] h-fit mx-7 cursor-pointer bg-[#E2F163] text-customtext'>Book Class</div>
       <div className='font-bold text-xl text-black py-3 px-6 border border-customtext border-4 rounded-[50px] h-fit mx-7 cursor-pointer bg-white text-customtext'>Book Class</div>
 
