@@ -30,7 +30,7 @@ const config = {
           DEFAULT:"#7E6D5B"
         },
         background: {
-          DEFAULT: "#F4F4F4",  // Default background color
+          DEFAULT: "#FFFFFF",  // Default background color
           light: "#FFFFFF",    // Light background
           dark: "#1A1A1A",     // Dark background
           accent: "#FFEDD5",   // Accent background
