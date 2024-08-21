@@ -9,10 +9,8 @@ import img6 from "../../assets/Homepage_img_6.jpg"
 import img7 from "../../assets/Homepage_img_7.jpg"
 import img8 from "../../assets/Homepage_img_8.jpg"
 import img9 from "../../assets/Homepage_img_9.jpg"
-import instafooter from "../../assets/InstaFooter.jpg"
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
+
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center ">
@@ -178,17 +176,7 @@ export default function Home() {
               </div>
         </div>
 
-        <div className="w-full h-fit mt-[200px] bg-[#1C2229]">
-              <div><img src={instafooter.src} alt="instafooter" className="w-full" /></div> 
-              <div className="flex flex-row ">
-                <div className="  ">
-                 
-                  <div className="flex flex-row">{<FontAwesomeIcon icon={faDumbbell} />} hello</div>
-                </div>
-                <div></div>
-                <div></div>
-              </div>
-        </div>
+        
 
 
 
