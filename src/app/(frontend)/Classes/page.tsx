@@ -14,60 +14,55 @@ const Classes = () => {
 
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-extrabold'>Classes</div>
       </div>
-      <div className='flex flex-col justify-center items-center w-full h-fit mt-[100px]'>
-          <div className='text-[#524FF5] font-mono  text-2xl'>PILATES</div>
-          <div className=' text-3xl font-bold'>We Train You to Gain</div>
-          <div className='max-w-[900px] text-center'>
-          Explore our range of Pilates class types designed to cater to your unique needs and preferences. Whether you're a beginner looking to build a strong foundation or an advanced practitioner seeking a challenging workout, we have the ideal classes for you. We offer Group Sessions, Private Sessions, Private Duo at our Studios.
-          </div>
-          <div>
-          We offer Group Sessions, Private Sessions, Private Duo at our Studios.
-          </div>
-          <div className='w-full h-fit justify-evenly items-start flex flex-row mt-9 '>
-              <div className='w-1/5 flex flex-col items-center  gap-4 h-[840px]'>
-                  <img src={img2.src} alt="img2" className="w-full" />
-                  <div className='text-start font-bold text-2xl w-full'>Foundation Classes</div>
-                  <div className='w-full'>
-                  This is a wonderful class for beginners to briefly understand Pilates principle, postures and breathing technique while focusing on ideal form and alignment. It can be taken privately or in small group sessions where the instructor can give personalized attention on the techniques and exercise forms to build great foundation for your physique type. We recommend at least 2-3 sessions of this foundation class to start with so that you can master your Pilates Fundamentals and get the most out of your following workouts as you advance. The duration of this class is 55 minutes
-                  </div>
-                  <div className='grow  justify-end items-end flex'>
-
-                  <div className='font-semibold text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
-                  </div>
-
-              </div>
-
-
-              <div className='w-1/5 flex flex-col items-center  gap-4 h-[840px]'>
-                  <img src={img3.src} alt="img3" className="w-full" />
-                  <div className='text-start font-bold text-2xl w-full'>SIGNATURE FULL BODY REFORMER</div>
-                  <div className='w-full'>
-                  Designed for all, this strengthen and lengthen workout session will help you to build stamina, flexibility, coordination, and strong balance. These sessions are done using Reformer machine, stability chair, TRX, magic rings and other Pilates props for you to experience variations in fun and challenging ways. Experience the benefits of Pilates with a twist.                  </div>
-                  <div className='grow  justify-end items-end flex'>
-                    <div className='font-semibold text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
-                  </div>
-
-              </div>
-
-
-
-              <div className='w-1/5 flex flex-col items-center  gap-4 h-[840px]'>
-                  <img src={img4.src} alt="img4" className="w-full" />
-                  <div className='text-start font-bold text-2xl w-full'>CHAIR BALANCE + REFORMER</div>
-                  <div className='w-full'>
-                  Great core stability workout routines performed on Wunda chairs to achieve maximum core strength, muscular endurance and balance. Added choreography with this challenging and complex Pilates' apparatus promises a high intensity and heart pumping workout. This workout requires a strong sense of mind-body connection and breathing technique to help gain maximum results!                  </div>
-                  <div className='grow  justify-end items-end flex'>
-
-                  <div className='font-semibold text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
-                  </div>
-
-              </div>
-          </div>
+      <div className='flex flex-col justify-center items-center w-full h-fit mt-[100px] px-4 lg:px-0'>
+  <div className='text-[#524FF5] font-mono text-2xl'>PILATES</div>
+  <div className='text-3xl font-bold text-center lg:text-left'>We Train You to Gain</div>
+  <div className='max-w-[900px] text-center'>
+    Explore our range of Pilates class types designed to cater to your unique needs and preferences...
+  </div>
+  <div className='text-center'>
+    We offer Group Sessions, Private Sessions, Private Duo at our Studios.
+  </div>
+  <div className='w-full flex flex-col lg:flex-row mt-9 space-y-6 lg:space-y-0 lg:space-x-6'>
+    <div className='w-full lg:w-1/3 flex flex-col items-center gap-4'>
+      <img src={img2.src} alt="img2" className="w-full" />
+      <div className='text-start font-bold text-2xl w-full'>Foundation Classes</div>
+      <div className='w-full'>
+        This is a wonderful class for beginners to briefly understand Pilates principle...
       </div>
+      <div className='flex justify-end items-end w-full'>
+        <div className='font-semibold text-md text-black border p-2 border-[#E2F163] rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
+      </div>
+    </div>
+
+    <div className='w-full lg:w-1/3 flex flex-col items-center gap-4'>
+      <img src={img3.src} alt="img3" className="w-full" />
+      <div className='text-start font-bold text-2xl w-full'>SIGNATURE FULL BODY REFORMER</div>
+      <div className='w-full'>
+        Designed for all, this strengthen and lengthen workout session will help you to build stamina...
+      </div>
+      <div className='flex justify-end items-end w-full'>
+        <div className='font-semibold text-md text-black border p-2 border-[#E2F163] rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
+      </div>
+    </div>
+
+    <div className='w-full lg:w-1/3 flex flex-col items-center gap-4'>
+      <img src={img4.src} alt="img4" className="w-full" />
+      <div className='text-start font-bold text-2xl w-full'>CHAIR BALANCE + REFORMER</div>
+      <div className='w-full'>
+        Great core stability workout routines performed on Wunda chairs to achieve maximum core strength...
+      </div>
+      <div className='flex justify-end items-end w-full'>
+        <div className='font-semibold text-md text-black border p-2 border-[#E2F163] rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
-      <div className='w-1/2 h-fit flex flex-col justify-center items-center mt-[150px] gap-[100px]'>
+
+      <div className='w-full lg:w-1/2 h-fit flex flex-col justify-center items-center mt-[150px] gap-[100px]'>
           <Classelement_default heading='CARDIO INTERVAL PILATES' description='A high-intensity, calorie-blasting cardio workout with a combination of Jumpboard Reformer based strength training is what makes up this energetic class. This high­impact, interval training workout session is dynamic and fast-paced. A solid Pilates foundation is required to join this class, minimum 5 to 6 prior pi late sessions would be ideal.' intensity='Intensity: INTERMEDIATE TO ADVANCE LEVEL'/>
           <Classelement_default heading='TRX FUNCTIONAL & REFORMER' description='A Reformer based Pilates workout is combined with the incredibly effective TRX® suspension training system. Efficient and precise routines are performed to enhance strength, coordination, mobility and balance. An excellent choice for sports lovers who want to challenge their limits and enjoy muscle building exercises in quick transitions.' intensity='Intensity: INTERMEDIATE TO ADVANCE LEVEL'/>
           <Classelement_default heading='BURNOUT' description='A high-intensity endurance class aimed to burn maximum body fat working on bigger muscle groups. Expect squats, planks, challenging arm work, and compound exercises throughout this routine to keep your heart racing. The best workout to get toned and sculpted with long & lean muscles.' intensity='Intensity: INTERMEDIATE TO ADVANCE LEVEL'/>
@@ -82,7 +77,7 @@ const Classes = () => {
       </div>
 
     <div className='w-full bg-[#7E6D5B] mt-[150px] flex justify-center items-center'>
-    <div className='w-1/2 h-fit flex flex-col justify-center items-center mt-[150px] gap-[100px] p-5'>
+    <div className='w-full lg:w-1/2 h-fit flex flex-col justify-center items-center mt-[150px] gap-[100px] p-5'>
     <div className='flex justify-center items-center flex-col'>
     <div className='text-4xl font-bold text-center'>YOGA</div>
       <div className='w-[200px] h-[5px] bg-black'></div>

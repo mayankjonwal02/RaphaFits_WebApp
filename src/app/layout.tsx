@@ -19,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("bg-background","mx-[60px]", inter.className)}>
-        <div>
+      <body className={cn("bg-background"," flex flex-col justify-center items-center w-screen", inter.className)}>
+        <div className="w-full ">
           <Navbar />
         </div>
         {children}
