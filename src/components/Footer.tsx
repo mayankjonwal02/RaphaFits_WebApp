@@ -6,7 +6,7 @@ import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import { Input } from "@/components/ui/input"
 const Footer = () => {
   return (
-    <div className="w-full h-fit mt-[50px] md:mt-[200px] mb-[300px] bg-[#1C2229]">
+    <div className="w-full h-fit mt-[50px] md:mt-[200px]  bg-[#1C2229]">
               <div><img src={instafooter.src} alt="instafooter" className="w-screen" /></div> 
               <div className="flex flex-col lg:flex-row w-full p-[40px] justify-around items-center md:items-start">
                 <div className="text-white w-full lg:w-1/4">
