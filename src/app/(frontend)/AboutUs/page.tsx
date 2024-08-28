@@ -13,7 +13,7 @@ const AboutUs = () => {
         <img src={img1.src} alt="img1" className="w-screen" />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-3/4 lg:-translate-y-1/2 text-white text-xl lg:text-5xl text-center font-extrabold">Start with us the body and</div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[50%]  md:translate-y-[80%] lg:translate-y-[60%] text-white text-xl lg:text-5xl text-center font-extrabold">mind clensing</div>
-        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[18%] md:translate-y-[20%] lg:translate-y-[25%] text-white text-2xl lg:text-5xl text-center font-extrabold bg-white flex flex-row gap-4 p-7 w-3/4 lg:w-1/2 justify-center '>
+        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[23%] md:translate-y-[20%] lg:translate-y-[25%] text-white text-2xl lg:text-5xl text-center font-extrabold bg-white flex flex-row gap-4 p-7 w-3/4 lg:w-1/2 justify-center '>
           <img src={img2.src} alt="img2" className="w-1/3 " />
           <img src={img3.src} alt="img3" className="w-2/3 " />
         </div>

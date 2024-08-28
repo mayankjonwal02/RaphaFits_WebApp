@@ -13,7 +13,7 @@ const ContactUs = () => {
       </div>
 
 
-      <div className='w-full flex flex-col lg:flex-row justify-evenly items-center my-[150px]'>
+      <div className='w-full flex flex-col lg:flex-row justify-evenly items-center mt-[150px] mt-[50px]'>
 
         <div className='w-full lg:w-1/3 flex flex-col justify-center items-center lg:items-start'>
           <div className='text-[#524FF5] font-mono  text-2xl'>WELCOME TO STRENGTHY</div>
@@ -67,7 +67,7 @@ const ContactUs = () => {
             <div className='text-md lg:text-2xl font-semibold'>Location</div>
             <div className='hidden lg:flex w-1/2 h-[1px] bg-black'></div>
             <div className='text-[10px] lg:text-md text-center'>Capitalized on hanging fruit to identify with additional</div>
-            <div className='font-bold text-[8px] lg:text-md'>123 King Dr.Oswego, NY 13126</div>
+            <div className='font-bold text-[8px] lg:text-md text-center'>123 King Dr.Oswego6</div>
           </div>
         </div>
       </div>

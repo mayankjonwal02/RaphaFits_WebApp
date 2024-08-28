@@ -79,7 +79,7 @@ const Faqs = () => {
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-extrabold'>FAQs</div>
       </div>
 
-      <div className='bg-[#7E6D5B] w-full p-[50px] flex flex-col justify-center items-center mt-[100px]'>
+      <div className='bg-[#7E6D5B] w-full p-[50px] flex flex-col justify-center items-center mt-[50px]'>
 
         <div className='text-[#524FF5] font-mono  text-2xl'>FAQ</div>
         <div className=' text-3xl font-bold'>Frequently Asked Questions</div>

@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import { useRouter } from 'next/navigation'
 import Navbar from "../../../components/Navbar"
 import img1 from "../../assets/Homepage_img_1.jpg"
 import img2 from "../../assets/Homepage_img_2.jpg"
@@ -12,6 +14,7 @@ import img9 from "../../assets/Homepage_img_9.jpg"
 
 
 export default function Home() {
+  const router = useRouter()
   return (
     <main className="flex min-h-screen flex-col items-center w-screen">
       <div className=" w-full">
@@ -24,8 +27,8 @@ export default function Home() {
         Fit & Strong
       </div>
       <div className="flex flex-row items-center my-3">
-        <div className='font-bold text-lg md:text-xl text-black py-1 md:py-3 px-4 md:px-6 border border-[#E2F163] border-2 rounded-[50px] h-fit mx-7 cursor-pointer bg-[#E2F163] text-customtext'>Book Class</div>
-        <div className='font-bold text-lg md:text-xl text-black py-1 md:py-3 px-4 md:px-6 border border-customtext border-4 rounded-[50px] h-fit mx-7 cursor-pointer bg-white text-customtext'>Book Class</div>
+        <div className='font-bold text-md md:text-xl text-black py-1 md:py-3 px-4 md:px-6 border border-[#E2F163] border-2 rounded-[50px] h-fit mx-7 cursor-pointer bg-[#E2F163] text-customtext'>Book a Trial</div>
+        <div className='font-bold text-md md:text-xl text-black py-1 md:py-3 px-4 md:px-6 border border-customtext border-4 rounded-[50px] h-fit mx-7 cursor-pointer bg-white text-customtext' onClick={() => router.push('/AboutUs')}>About Us</div>
 
       </div>
       <div className="flex flex-col lg:flex-row w-full mt-[50px]">
@@ -40,14 +43,14 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col w-full lg:w-1/2 p-[40px] gap-[10%]">
-          <div className="relative h-[60%]">
+          <div className="relative h-[60%] ">
             <img src={img3.src} alt="img3" className="h-full w-full object-cover" />
             <div className="absolute -inset-10 flex flex-col justify-center md:justify-end items-start p-[60px] lg:p-[50px] gap-4">
 
               <div className=" flex items-end justify-start text-white text-2xl font-bold">
                 PILATES
               </div>
-              <div className=" flex items-end justify-start text-white text-md w-[100%]">Pilates was started by a man, Joseph Pilates, for men at war and then it was transformed for ballet and contemporary dancers. So simply put Pilates will help you get the strength and agility of a warrior and also a lean, long, flexible body of a ballet dancer!</div>
+              <div className=" flex items-end justify-start text-white text-[10px] md:text-md w-[100%]">Pilates was started by a man, Joseph Pilates, for men at war and then it was transformed for ballet and contemporary dancers. So simply put Pilates will help you get the strength and agility of a warrior and also a lean, long, flexible body of a ballet dancer!</div>
 
             </div>
           </div>

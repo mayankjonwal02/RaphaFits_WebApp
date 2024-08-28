@@ -30,7 +30,7 @@ const Classes = () => {
       <div className='w-full'>
         This is a wonderful class for beginners to briefly understand Pilates principle...
       </div>
-      <div className='flex justify-end items-end w-full'>
+      <div className='flex flex-col justify-end items-center w-full'>
         <div className='font-semibold text-md text-black border p-2 border-[#E2F163] rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
       </div>
     </div>
@@ -41,7 +41,7 @@ const Classes = () => {
       <div className='w-full'>
         Designed for all, this strengthen and lengthen workout session will help you to build stamina...
       </div>
-      <div className='flex justify-end items-end w-full'>
+      <div className='flex flex-col justify-end items-center w-full'>
         <div className='font-semibold text-md text-black border p-2 border-[#E2F163] rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
       </div>
     </div>
@@ -52,7 +52,7 @@ const Classes = () => {
       <div className='w-full'>
         Great core stability workout routines performed on Wunda chairs to achieve maximum core strength...
       </div>
-      <div className='flex justify-end items-end w-full'>
+      <div className='flex flex-col justify-end items-center w-full'>
         <div className='font-semibold text-md text-black border p-2 border-[#E2F163] rounded-[80px] h-fit cursor-pointer bg-[#E2F163] w-fit'>Book A Trial</div>
       </div>
     </div>
@@ -62,7 +62,7 @@ const Classes = () => {
 
 
 
-      <div className='w-full lg:w-1/2 h-fit flex flex-col justify-center items-center mt-[150px] gap-[100px]'>
+      <div className='w-full lg:w-1/2 h-fit flex flex-col justify-center items-center mt-[150px] gap-[100px] p-3'>
           <Classelement_default heading='CARDIO INTERVAL PILATES' description='A high-intensity, calorie-blasting cardio workout with a combination of Jumpboard Reformer based strength training is what makes up this energetic class. This high­impact, interval training workout session is dynamic and fast-paced. A solid Pilates foundation is required to join this class, minimum 5 to 6 prior pi late sessions would be ideal.' intensity='Intensity: INTERMEDIATE TO ADVANCE LEVEL'/>
           <Classelement_default heading='TRX FUNCTIONAL & REFORMER' description='A Reformer based Pilates workout is combined with the incredibly effective TRX® suspension training system. Efficient and precise routines are performed to enhance strength, coordination, mobility and balance. An excellent choice for sports lovers who want to challenge their limits and enjoy muscle building exercises in quick transitions.' intensity='Intensity: INTERMEDIATE TO ADVANCE LEVEL'/>
           <Classelement_default heading='BURNOUT' description='A high-intensity endurance class aimed to burn maximum body fat working on bigger muscle groups. Expect squats, planks, challenging arm work, and compound exercises throughout this routine to keep your heart racing. The best workout to get toned and sculpted with long & lean muscles.' intensity='Intensity: INTERMEDIATE TO ADVANCE LEVEL'/>
