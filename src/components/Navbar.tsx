@@ -15,11 +15,11 @@ import { FaBars } from "react-icons/fa";
 const Navbar = () => {
   const router = useRouter()
   return (
-    <div className='text-black w-full h-fit flex flex-row items-center justify-between my-4  '>
+    <div className='text-black w-full h-fit flex flex-row items-center justify-between  '>
       <div onClick={() => router.push('/')}>
         <img src={Logo.src} alt="logo" className='h-[30px] md:h-[70px]' />
       </div>
-      <div className='hidden lg:flex flex-row items-center'>
+      <div className='hidden lg:flex flex-row items-center '>
 
         <div className='flex flex-row justify-between items-center '>
 
@@ -37,8 +37,8 @@ const Navbar = () => {
 
 
       <DropdownMenu >
-        <DropdownMenuTrigger>
-          <div className='flex lg:hidden '>
+        <DropdownMenuTrigger className='lg:hidden'>
+          <div className='flex lg:hidden pe-5 lg:pe-0'>
             <FaBars />
           </div>
         </DropdownMenuTrigger>

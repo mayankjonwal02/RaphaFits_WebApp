@@ -24,9 +24,9 @@ const Footer = () => {
                 </div>
 
                 <div className="text-white w-full mt-5 lg:mt-0 lg:w-1/4 ">
-                 <div className="text-xl font-bold text-center ">Menu</div>
+                 <div className="text-xl font-bold text-start ">Menu</div>
                  
-                 <div className=" flex flex-col justify-center items-center mt-[30px] ">
+                 <div className=" flex flex-col justify-center items-start mt-[30px] gap-3">
                    
                     <div className="text-[#BCBCBC]">Home</div>
                     <div className="text-[#BCBCBC]">About Us</div>
@@ -44,8 +44,8 @@ const Footer = () => {
                  <Input placeholder="Enter your email" className=" border border-1 border-black placeholder:text-[#BCBCBC] bg-[#485059] mt-[20px]" />
 
                  <div className="  mt-[30px] justify-center items-center lg:justify-start lg:items-start flex flex-col w-full ">
-                 <div className='font-semibold  text-md text-white  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer hover:bg-[#E2F163] hover:text-black'>Subscribe</div>
-                 <div className='font-semibold text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] mt-5'>Book A Trial Now</div>
+                 <div className='font-semibold text-sm  md:text-md text-white  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer hover:bg-[#E2F163] hover:text-black'>Subscribe</div>
+                 <div className='font-semibold text-sm md:text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] mt-5'>Book A Trial Now</div>
 
 
                     
