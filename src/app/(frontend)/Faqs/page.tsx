@@ -79,16 +79,16 @@ const Faqs = () => {
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-extrabold'>FAQs</div>
       </div>
 
-      <div className='bg-[#7E6D5B] w-full p-[50px] flex flex-col justify-center items-center mt-[50px]'>
+      <div className='bg-[#7E6D5B] w-full p-[30px] flex flex-col justify-center items-start mt-[50px]'>
 
         <div className='text-[#524FF5] font-mono  text-2xl'>FAQ</div>
         <div className=' text-3xl font-bold'>Frequently Asked Questions</div>
-        <div className="w-3/4 lg:w-1/2 mt-[30px] mb-[50px]">
+        <div className="w-full lg:w-1/2 mt-[30px] mb-[50px]">
           {accordionData.map((item) => (
             <Accordion type="single" collapsible key={item.id}>
               <AccordionItem value={item.id}>
-                <AccordionTrigger>{item.question}</AccordionTrigger>
-                <AccordionContent className='text-white'>{item.answer}</AccordionContent>
+                <AccordionTrigger className='text-white text-start'>{item.question}</AccordionTrigger>
+                <AccordionContent className='text-black'>{item.answer}</AccordionContent>
               </AccordionItem>
 
             </Accordion>

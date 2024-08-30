@@ -18,7 +18,7 @@ const ContactUs = () => {
         <div className='w-full lg:w-1/3 flex flex-col justify-center items-center lg:items-start'>
           <div className='text-[#524FF5] font-mono  text-2xl'>WELCOME TO STRENGTHY</div>
           <div className='text-3xl font-bold mb-6'>Get In Touch With Us</div>
-          <div>If you have any feedback or questions about our clubs, our website or our services in general, please contact us by filling out the form.</div>
+          <div className='w-5/6'>If you have any feedback or questions about our clubs, our website or our services in general, please contact us by filling out the form.</div>
           <div className='text-xl font-semibold mb-3 mt-7'>Open Hours</div>
           <div className='w-1/2 h-[1px] bg-[#D3D3D3] mb-3'></div>
 
@@ -45,8 +45,8 @@ const ContactUs = () => {
       <div className='relative w-full'>
         <img src={img2.src} alt="img2" className="w-full" />
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black bg-[#7E6D5B] flex flex-row justify-center items-start w-5/6 lg:w-3/5 h-[150px] lg:h-[250px] p-6 gap-3'>
-          <div className='w-1/3 flex flex-col justify-center items-center gap-0 lg:gap-5 '>
-            <div className='text-md lg:text-2xl font-semibold'>Phone</div>
+          <div className='w-1/3 flex flex-col justify-center items-center gap-3 lg:gap-5 '>
+            <div className='text-md lg:text-2xl font-semibold text-white'>Phone</div>
             <div className='hidden lg:flex w-1/2 h-[1px] bg-black'></div>
             <div className='text-[10px] lg:text-md text-center'>Capitalized on hanging fruit to identify with additional</div>
             <div className='font-bold text-[8px] lg:text-md'>+91234567890</div>
@@ -54,8 +54,8 @@ const ContactUs = () => {
 
           <div className='w-[1px] bg-black h-full'></div>
 
-          <div className='w-1/3 flex flex-col justify-center items-center gap-0 lg:gap-5 '>
-            <div className='text-md lg:text-2xl font-semibold'>Mail</div>
+          <div className='w-1/3 flex flex-col justify-center items-center gap-3 lg:gap-5 '>
+            <div className='text-md lg:text-2xl font-semibold text-white'>Mail</div>
             <div className='hidden lg:flex w-1/2 h-[1px] bg-black'></div>
             <div className='text-[10px] lg:text-md text-center'>Capitalized on hanging fruit to identify with additional</div>
             <div className='font-bold text-[8px] lg:text-md'>hello@strengthy.com</div>
@@ -63,8 +63,8 @@ const ContactUs = () => {
 
           <div className='w-[1px] bg-black h-full' ></div>
 
-          <div className='w-1/3 flex flex-col justify-center items-center gap-0 lg:gap-5 '>
-            <div className='text-md lg:text-2xl font-semibold'>Location</div>
+          <div className='w-1/3 flex flex-col justify-center items-center gap-3 lg:gap-5 '>
+            <div className='text-md lg:text-2xl font-semibold text-white'>Location</div>
             <div className='hidden lg:flex w-1/2 h-[1px] bg-black'></div>
             <div className='text-[10px] lg:text-md text-center'>Capitalized on hanging fruit to identify with additional</div>
             <div className='font-bold text-[8px] lg:text-md text-center'>123 King Dr.Oswego6</div>

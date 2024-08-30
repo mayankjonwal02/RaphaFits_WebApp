@@ -42,19 +42,19 @@ export default function Home() {
             <div><img src={img2.src} alt="img2" className="w-full" /></div>
           </div>
         </div>
-        <div className="flex flex-col w-full lg:w-1/2 p-[40px] gap-[10%]">
+        <div className="flex flex-col w-full lg:w-1/2 p-[40px] pt-[10px] gap-[10%]">
           <div className="relative h-[60%] ">
             <img src={img3.src} alt="img3" className="h-full w-full object-cover" />
             <div className="absolute -inset-10 flex flex-col justify-center md:justify-end items-start p-[60px] lg:p-[50px] gap-4">
 
-              <div className=" flex items-end justify-start text-black text-2xl font-bold">
+              <div className=" flex items-end justify-start text-white text-2xl font-bold">
                 PILATES
               </div>
-              <div className=" flex items-end justify-start font-semibold text-black text-[10px] md:text-lg w-[100%]">Pilates was started by a man, Joseph Pilates, for men at war and then it was transformed for ballet and contemporary dancers. So simply put Pilates will help you get the strength and agility of a warrior and also a lean, long, flexible body of a ballet dancer!</div>
+              <div className=" flex items-end justify-start font-semibold text-white text-[10px] md:text-lg w-[100%]">Pilates was started by a man, Joseph Pilates, for men at war and then it was transformed for ballet and contemporary dancers. So simply put Pilates will help you get the strength and agility of a warrior and also a lean, long, flexible body of a ballet dancer!</div>
 
             </div>
           </div>
-          <div className="h-[30%] bg-[#7E6D5B] text-white p-[50px]  gap-[20px] flex flex-col mt-[80px] lg:mt-0">
+          <div className="h-[30%] bg-[#7E6D5B] text-white p-[30px]  gap-[20px] flex flex-col mt-[40px] lg:mt-0">
             <div className="text-2xl font-bold">Our studio</div>
             <div className="text-md">The Pilates Studio is a fully equipped studio with the V2 max Reformers, Cadillac, Stability Chair as well as the ladder barrel. Book a trial now</div>
 

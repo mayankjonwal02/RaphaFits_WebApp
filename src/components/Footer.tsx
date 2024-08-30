@@ -43,9 +43,9 @@ const Footer = () => {
                  <div className="text-xl font-bold text-center">Newsletter</div>
                  <Input placeholder="Enter your email" className=" border border-1 border-black placeholder:text-[#BCBCBC] bg-[#485059] mt-[20px]" />
 
-                 <div className="  mt-[30px] justify-center items-center lg:justify-start lg:items-start flex flex-col w-full ">
+                 <div className="  mt-[30px] justify-center items-center lg:justify-start lg:items-start flex flex-row  lg:flex-col w-full gap-3">
                  <div className='font-semibold text-sm  md:text-md text-white  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer hover:bg-[#E2F163] hover:text-black'>Subscribe</div>
-                 <div className='font-semibold text-sm md:text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] mt-5'>Book A Trial Now</div>
+                 <div className='font-semibold text-sm md:text-md text-black  border p-2 border-[#E2F163] border-2 rounded-[80px] h-fit cursor-pointer bg-[#E2F163] lg:mt-5'>Book A Trial Now</div>
 
 
                     

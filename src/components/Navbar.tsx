@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className='text-black w-full h-fit flex flex-row items-center justify-between  '>
       <div onClick={() => router.push('/')}>
-        <img src={Logo.src} alt="logo" className='h-[30px] md:h-[70px]' />
+        <img src={Logo.src} alt="logo" className='h-[30px] md:h-[70px] ps-5' />
       </div>
       <div className='hidden lg:flex flex-row items-center '>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
-            className='text-customtext p-7 cursor-pointer font-semibold hover:underline'
+            className='text-customtext  cursor-pointer font-semibold hover:underline bg-[#E2F163] border border-[#E2F163] border-2 rounded-[80px] h-fit mx-7 cursor-pointer hover:bg-[#E2F163]'
             onClick={() => router.push('/BookClass')}
           >
             Book Class
